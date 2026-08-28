@@ -12,14 +12,14 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-08-28 08:35:40（北京时间） · 成功 **3/10** 个源
+> 🔄 最近更新：2026-08-28 14:58:00（北京时间） · 成功 **2/10** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
 | 肥猫 | ❌ 失败 | 401 Client Error:  for url: https://6296.kstore.vip/facat... |
 | 饭太硬 | ❌ 失败 | Expecting value: line 1 column 1 (char 0) |
-| 王二小 | ✅ 成功 | `https://9280.kstore.vip/aiwex.json` |
-| 讴歌 | ✅ 成功 | `https://欧歌.v.nxog.top/m/` |
+| 王二小 | ✅ 成功 | `https://d.kstore.dev/download/9280/wex.json` |
+| 讴歌 | ❌ 失败 | ('Connection aborted.', RemoteDisconnected('Remote end cl... |
 | 摸鱼 | ❌ 失败 | HTTPConnectionPool(host='xn--c5wa.xn--v4q818bf34b.top', p... |
 | OK | ❌ 失败 | HTTPConnectionPool(host='ok321.top', port=80): Max retrie... |
 | 小米 | ❌ 失败 | HTTPConnectionPool(host='miqk.cc', port=80): Max retries ... |
