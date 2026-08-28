@@ -1,0 +1,76 @@
+{
+  "updated_at": "2026-08-28 08:35:40",
+  "repo": "Lightconer/tvbox-ysc-config",
+  "sources": [
+    {
+      "id": "feimao",
+      "name": "肥猫",
+      "ok": false,
+      "used_url": null,
+      "error": "401 Client Error:  for url: https://6296.kstore.vip/facat.json"
+    },
+    {
+      "id": "fantaiying",
+      "name": "饭太硬",
+      "ok": false,
+      "used_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": "wangerxiao",
+      "name": "王二小",
+      "ok": true,
+      "used_url": "https://9280.kstore.vip/aiwex.json",
+      "error": null
+    },
+    {
+      "id": "ouge",
+      "name": "讴歌",
+      "ok": true,
+      "used_url": "https://欧歌.v.nxog.top/m/",
+      "error": null
+    },
+    {
+      "id": "moyu",
+      "name": "摸鱼",
+      "ok": false,
+      "used_url": null,
+      "error": "HTTPConnectionPool(host='xn--c5wa.xn--v4q818bf34b.top', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='xn--c5wa.xn--v4q818bf34b.top', port=80) at 0x21885879480>, 'Connection to xn--c5wa.xn--v4q818bf34b.top timed out. (connect timeout=20)'))"
+    },
+    {
+      "id": "ok",
+      "name": "OK",
+      "ok": false,
+      "used_url": null,
+      "error": "HTTPConnectionPool(host='ok321.top', port=80): Max retries exceeded with url: /tv (Caused by NameResolutionError(\"HTTPConnection(host='ok321.top', port=80): Failed to resolve 'ok321.top' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "ok": false,
+      "used_url": null,
+      "error": "HTTPConnectionPool(host='miqk.cc', port=80): Max retries exceeded with url: /%E5%B0%8F%E7%B1%B3/DEMO.json (Caused by NameResolutionError(\"HTTPConnection(host='miqk.cc', port=80): Failed to resolve 'miqk.cc' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "id": "qiaoji",
+      "name": "巧记",
+      "ok": false,
+      "used_url": null,
+      "error": "HTTPConnectionPool(host='cdn.qiaoji8.com', port=80): Max retries exceeded with url: /tvbox.json (Caused by NameResolutionError(\"HTTPConnection(host='cdn.qiaoji8.com', port=80): Failed to resolve 'cdn.qiaoji8.com' ([Errno 11001] getaddrinfo failed)\"))"
+    },
+    {
+      "id": "4k",
+      "name": "4K小盒子",
+      "ok": true,
+      "used_url": "http://xhztv.top/4k.json",
+      "error": null
+    },
+    {
+      "id": "xiaosa",
+      "name": "潇洒",
+      "ok": false,
+      "used_url": null,
+      "error": "404 Client Error:  for url: https://9877.kstore.space/AnotherD/api.json"
+    }
+  ]
+}

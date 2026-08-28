@@ -1,0 +1,58 @@
+name: Auto Update TVBox Configs
+
+# 注意：GitHub Actions 的 on 字段需加引号，避免被部分 YAML 解析器当作布尔值
+"on":
+  # 定时触发：每天 02:00 和 14:00（UTC）自动更新
+  schedule:
+    - cron: "0 2,14 * * *"
+  # 支持在 GitHub Actions 页面手动触发
+  workflow_dispatch:
+  # 修改配置或脚本后 push 时触发（仅监听 config/scripts，避免自动提交 output/ 引发死循环）
+  push:
+    branches:
+      - main
+    paths:
+      - "config/**"
+      - "scripts/**"
+      - "requirements.txt"
+
+# 赋予 GITHUB_TOKEN 写仓库权限，用于把更新结果提交回仓库
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: auto-update
+      cancel-in-progress: false
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run update script
+        run: python scripts/update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "::notice::没有内容变化，跳过提交"
+          else
+            git commit -m "chore: 自动更新影视仓配置 $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push origin main
+            echo "::notice::配置已更新并推送到 main 分支"
+          fi

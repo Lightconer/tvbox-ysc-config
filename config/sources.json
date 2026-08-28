@@ -1,0 +1,100 @@
+{
+  "description": "影视仓 / TVBox 配置源列表：聚合肥猫、饭太硬、王二小、讴歌（欧歌）、摸鱼、OK、小米、巧记、4K小盒子、潇洒等公开接口",
+  "update_interval_hours": 12,
+  "sources": [
+    {
+      "id": "feimao",
+      "name": "肥猫",
+      "urls": [
+        "http://肥猫.com/",
+        "http://肥猫.com/tv",
+        "http://肥猫.net/tv",
+        "http://hello.肥猫.com/",
+        "https://6296.kstore.vip/facat.json"
+      ]
+    },
+    {
+      "id": "fantaiying",
+      "name": "饭太硬",
+      "urls": [
+        "http://www.饭太硬.com/tv",
+        "http://www.饭太硬.net/tv",
+        "http://www.饭太硬.xyz/tv",
+        "http://www.饭太硬.cc/tv",
+        "http://fty.xxooo.cf/tv",
+        "http://fty.888484.xyz/tv",
+        "http://fty.333232.xyz/tv"
+      ]
+    },
+    {
+      "id": "wangerxiao",
+      "name": "王二小",
+      "urls": [
+        "http://tvbox.王二小放牛娃.top",
+        "http://new.王二小放牛娃.top",
+        "https://d.kstore.dev/download/9280/wex.json",
+        "https://9280.kstore.vip/aiwex.json"
+      ]
+    },
+    {
+      "id": "ouge",
+      "name": "讴歌",
+      "urls": [
+        "http://tv.nxog.top/m/",
+        "https://欧歌.v.nxog.top/m/",
+        "http://欧歌zp8.v.nxog.top/m/",
+        "https://xn--zp8-mf3g9f.v.nxog.top/m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp&mz=index&jar=index&123&b=%E6%AC%A7%E6%AD%8Czp8"
+      ]
+    },
+    {
+      "id": "moyu",
+      "name": "摸鱼",
+      "urls": [
+        "http://我不是.摸鱼儿.top",
+        "http://我不是.摸鱼儿.com",
+        "http://我不是.摸鱼儿.xyz",
+        "http://清清.摸鱼儿.top"
+      ]
+    },
+    {
+      "id": "ok",
+      "name": "OK",
+      "urls": [
+        "http://ok321.top/ok",
+        "http://ok321.top/tv"
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "urls": [
+        "http://www.mpanso.com/小米/DEMO.json",
+        "https://www.mpanso.com/%E5%B0%8F%E7%B1%B3/DEMO.json",
+        "http://miqk.cc/小米/DEMO.json"
+      ]
+    },
+    {
+      "id": "qiaoji",
+      "name": "巧记",
+      "urls": [
+        "http://cdn.qiaoji8.com/tvbox.json"
+      ]
+    },
+    {
+      "id": "4k",
+      "name": "4K小盒子",
+      "urls": [
+        "http://xhztv.top/4k.json",
+        "http://xhztv.top/xhz"
+      ]
+    },
+    {
+      "id": "xiaosa",
+      "name": "潇洒",
+      "urls": [
+        "https://9877.kstore.space/one.json",
+        "https://9877.kstore.space/AnotherD/api.json"
+      ]
+    }
+  ]
+}
