@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28 14:58:00",
+  "updated_at": "2026-08-28 15:09:43",
   "repo": "Lightconer/tvbox-ysc-config",
   "sources": [
     {
@@ -26,37 +26,37 @@
     {
       "id": "ouge",
       "name": "讴歌",
-      "ok": false,
-      "used_url": null,
-      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      "ok": true,
+      "used_url": "https://欧歌.v.nxog.top/m/",
+      "error": null
     },
     {
       "id": "moyu",
       "name": "摸鱼",
       "ok": false,
       "used_url": null,
-      "error": "HTTPConnectionPool(host='xn--c5wa.xn--v4q818bf34b.top', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='xn--c5wa.xn--v4q818bf34b.top', port=80): Failed to resolve 'xn--c5wa.xn--v4q818bf34b.top' ([Errno -2] Name or service not known)\"))"
+      "error": "HTTPConnectionPool(host='xn--c5wa.xn--v4q818bf34b.top', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='xn--c5wa.xn--v4q818bf34b.top', port=80) at 0x298d9453df0>, 'Connection to xn--c5wa.xn--v4q818bf34b.top timed out. (connect timeout=20)'))"
     },
     {
       "id": "ok",
       "name": "OK",
       "ok": false,
       "used_url": null,
-      "error": "HTTPConnectionPool(host='ok321.top', port=80): Max retries exceeded with url: /tv (Caused by NameResolutionError(\"HTTPConnection(host='ok321.top', port=80): Failed to resolve 'ok321.top' ([Errno -5] No address associated with hostname)\"))"
+      "error": "HTTPConnectionPool(host='ok321.top', port=80): Max retries exceeded with url: /tv (Caused by NameResolutionError(\"HTTPConnection(host='ok321.top', port=80): Failed to resolve 'ok321.top' ([Errno 11001] getaddrinfo failed)\"))"
     },
     {
       "id": "xiaomi",
       "name": "小米",
       "ok": false,
       "used_url": null,
-      "error": "HTTPConnectionPool(host='miqk.cc', port=80): Max retries exceeded with url: /%E5%B0%8F%E7%B1%B3/DEMO.json (Caused by NameResolutionError(\"HTTPConnection(host='miqk.cc', port=80): Failed to resolve 'miqk.cc' ([Errno -5] No address associated with hostname)\"))"
+      "error": "HTTPConnectionPool(host='miqk.cc', port=80): Max retries exceeded with url: /%E5%B0%8F%E7%B1%B3/DEMO.json (Caused by NameResolutionError(\"HTTPConnection(host='miqk.cc', port=80): Failed to resolve 'miqk.cc' ([Errno 11001] getaddrinfo failed)\"))"
     },
     {
       "id": "qiaoji",
       "name": "巧记",
       "ok": false,
       "used_url": null,
-      "error": "HTTPConnectionPool(host='cdn.qiaoji8.com', port=80): Max retries exceeded with url: /tvbox.json (Caused by NameResolutionError(\"HTTPConnection(host='cdn.qiaoji8.com', port=80): Failed to resolve 'cdn.qiaoji8.com' ([Errno -2] Name or service not known)\"))"
+      "error": "HTTPConnectionPool(host='cdn.qiaoji8.com', port=80): Max retries exceeded with url: /tvbox.json (Caused by NameResolutionError(\"HTTPConnection(host='cdn.qiaoji8.com', port=80): Failed to resolve 'cdn.qiaoji8.com' ([Errno 11001] getaddrinfo failed)\"))"
     },
     {
       "id": "4k",

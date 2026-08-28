@@ -5,6 +5,10 @@
       "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json"
     },
     {
+      "name": "讴歌",
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json"
+    },
+    {
       "name": "4K小盒子",
       "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json"
     }

@@ -229,7 +229,9 @@ def update_readme(status, ok_count, total):
     lines.append("| 配置源 | 状态 | 使用地址 |")
     lines.append("| --- | --- | --- |")
     for s in status["sources"]:
-        if s["ok"]:
+        if s.get("cached"):
+            lines.append(f"| {s['name']} | 📦 缓存 | 上次成功配置（本次更新未抓到，沿用缓存） |")
+        elif s["ok"]:
             lines.append(f"| {s['name']} | ✅ 成功 | `{s['used_url']}` |")
         else:
             err = (s.get("error") or "").replace("|", "/")
@@ -319,8 +321,28 @@ def main() -> int:
             time.sleep(URL_INTERVAL)
 
         if not saved:
-            entry["error"] = entry["error"] or "所有地址均失败"
-            print(f"[FAIL] {name}  全部地址失败")
+            # 所有地址都失败：尝试使用上一次成功抓取的缓存文件
+            cache_path = os.path.join(OUTPUT_DIR, f"{sid}.json")
+            if os.path.exists(cache_path):
+                try:
+                    with open(cache_path, "r", encoding="utf-8") as f:
+                        cached = json.load(f)
+                    if is_valid_tvbox_config(cached):
+                        subscriptions.append(
+                            {"name": name, "url": f"{raw_base}/{sid}.json"}
+                        )
+                        fetched.append((sid, name, cached))
+                        entry["ok"] = True
+                        entry["cached"] = True
+                        entry["used_url"] = "(缓存)"
+                        ok_count += 1
+                        saved = True
+                        print(f"[CACHE] {name}  使用上次缓存配置")
+                except Exception:
+                    pass
+            if not saved:
+                entry["error"] = entry["error"] or "所有地址均失败"
+                print(f"[FAIL] {name}  全部地址失败")
         status["sources"].append(entry)
 
         # 源之间稍作间隔，避免集中请求被限流
