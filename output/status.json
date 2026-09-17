@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 15:12:46",
+  "updated_at": "2026-09-18 01:59:16",
   "repo": "Lightconer/tvbox-ysc-config",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "name": "讴歌",
       "ok": true,
       "used_url": "(缓存)",
-      "error": "HTTPSConnectionPool(host='xn--zp8-mf3g9f.v.nxog.top', port=443): Max retries exceeded with url: /m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp&mz=index&jar=index&123&b=%E6%AC%A7%E6%AD%8Czp8 (Caused by NameResolutionError(\"HTTPSConnection(host='xn--zp8-mf3g9f.v.nxog.top', port=443): Failed to resolve 'xn--zp8-mf3g9f.v.nxog.top' ([Errno -2] Name or service not known)\"))",
+      "error": "HTTPSConnectionPool(host='xn--zp8-mf3g9f.v.nxog.top', port=443): Max retries exceeded with url: /m/111.php?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp&mz=index&jar=index&123&b=%E6%AC%A7%E6%AD%8Czp8 (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1016)')))",
       "cached": true
     },
     {
