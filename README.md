@@ -12,7 +12,7 @@
 ## 一、源可用性状态
 
 <!-- STATUS_START -->
-> 🔄 最近更新：2026-09-22 15:25:02（北京时间） · 成功 **4/10** 个源
+> 🔄 最近更新：2026-09-23 02:00:03（北京时间） · 成功 **4/10** 个源
 
 | 配置源 | 状态 | 使用地址 |
 | --- | --- | --- |
@@ -25,7 +25,7 @@
 | 小米 | ❌ 失败 | HTTPConnectionPool(host='miqk.cc', port=80): Max retries ... |
 | 巧记 | ❌ 失败 | HTTPConnectionPool(host='cdn.qiaoji8.com', port=80): Max ... |
 | 4K小盒子 | ✅ 成功 | `http://xhztv.top/4k.json` |
-| 潇洒 | ❌ 失败 | HTTPSConnectionPool(host='9877.kstore.space', port=443): ... |
+| 潇洒 | ❌ 失败 | 404 Client Error:  for url: https://9877.kstore.space/Ano... |
 <!-- STATUS_END -->
 
 ## 二、仓库结构

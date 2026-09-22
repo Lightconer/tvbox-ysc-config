@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22 15:25:02",
+  "updated_at": "2026-09-23 02:00:03",
   "repo": "Lightconer/tvbox-ysc-config",
   "sources": [
     {
@@ -71,7 +71,7 @@
       "name": "潇洒",
       "ok": false,
       "used_url": null,
-      "error": "HTTPSConnectionPool(host='9877.kstore.space', port=443): Max retries exceeded with url: /AnotherD/api.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='9877.kstore.space', port=443) at 0x7fabc29be2d0>, 'Connection to 9877.kstore.space timed out. (connect timeout=20)'))"
+      "error": "404 Client Error:  for url: https://9877.kstore.space/AnotherD/api.json"
     }
   ]
 }
