@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-10-07 03:22:15",
+  "updated_at": "2026-10-07 16:13:05",
   "repo": "Lightconer/tvbox-ysc-config",
   "sources": [
     {
       "id": "feimao",
       "name": "肥猫",
       "ok": true,
-      "used_url": "http://肥猫.net/tv",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "401 Client Error:  for url: https://6296.kstore.vip/facat.json",
+      "cached": true
     },
     {
       "id": "fantaiying",
