@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 02:51:27",
+  "updated_at": "2026-11-02 17:18:54",
   "repo": "jorzaiy/tvbox-ysc-config",
   "sources": [
     {
@@ -20,8 +20,9 @@
       "id": "wangerxiao",
       "name": "王二小",
       "ok": true,
-      "used_url": "https://d.kstore.dev/download/9280/wex.json",
-      "error": null
+      "used_url": "(缓存)",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "cached": true
     },
     {
       "id": "laoliubei",
