@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02 02:45:52",
+  "updated_at": "2026-11-02 16:53:31",
   "repo": "Lightconer/tvbox-ysc-config",
   "sources": [
     {
@@ -63,9 +63,8 @@
       "id": "shiguang",
       "name": "拾光多仓",
       "ok": true,
-      "used_url": "(缓存)",
-      "error": "HTTPConnectionPool(host='xmbjm.fh4u.org', port=80): Max retries exceeded with url: /dc.txt (Caused by NameResolutionError(\"HTTPConnection(host='xmbjm.fh4u.org', port=80): Failed to resolve 'xmbjm.fh4u.org' ([Errno -3] Temporary failure in name resolution)\"))",
-      "cached": true
+      "used_url": "http://xmbjm.fh4u.org/dc.txt",
+      "error": null
     },
     {
       "id": "tinghao",
