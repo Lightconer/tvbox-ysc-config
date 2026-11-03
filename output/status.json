@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03 17:23:51",
+  "updated_at": "2026-11-04 04:29:07",
   "repo": "jorzaiy/tvbox-ysc-config",
   "sources": [
     {
@@ -43,7 +43,7 @@
       "name": "讴歌",
       "ok": true,
       "used_url": "(缓存)",
-      "error": "HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)')))",
+      "error": "HTTPSConnectionPool(host='xn--dkw0c.v.nxog.top', port=443): Max retries exceeded with url: /m/ (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)')))",
       "cached": true
     },
     {
